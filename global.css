@@ -1,0 +1,73 @@
+.title {
+    background: -webkit-linear-gradient(290deg, #ffc6af, #5bc0ba);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    width: fit-content;
+}
+
+.button {
+    background-color: #e9cdc2;
+    border-radius: 100px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.button a {
+    display: flex;
+    text-decoration: none;
+    width: 90%;
+    justify-content: center;
+    color: #e9cdc2;
+}
+.button p {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.button .contentbutton {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.button .casulo {
+    display: flex;
+    background-color: #fff;
+    width: 22px;
+    height: 23px;
+    border-radius: 100%;
+}
+
+.button .arrow {
+    display: flex;
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    animation: arrowbottom 3s ease 0s infinite normal none;
+}
+
+.button .arrowone, .button .arrowtwo {
+    background-color: #e9cdc2;
+    width: 4px;
+    height: 10px;
+}
+
+.button .arrowone {
+    border-radius: 10px;
+    transform: matrix(1, 0, 0.6, 1, 0, 0);
+}
+
+.button .arrowtwo {
+    border-radius: 10px;
+    transform: matrix(1, 0, -0.6, 1, 1, 0);
+}
+
+.button p {
+    color: #fff;
+    font-weight: 600;
+}

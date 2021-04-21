@@ -1,0 +1,101 @@
+@keyframes gologo {
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes gologostar {
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes buttonwelcome {
+    0.0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes arrowbottom {
+    0.0%{
+        transform: matrix(1, 0, 0, 1, 0, -3);
+    }
+    50%{
+        transform: matrix(1, 0, 0, 1, 0, 4);
+    }
+    100%{
+        transform: matrix(1, 0, 0, 1, 0, -3);
+    }
+}
+
+@keyframes buttontwo {
+    0.0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes buttonthree {
+    0.0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes buttonfour {
+    0.0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes buttonfive {
+    0.0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes buttonsix {
+    0.0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
